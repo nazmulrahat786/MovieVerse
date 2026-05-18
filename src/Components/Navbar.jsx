@@ -21,7 +21,7 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-white"
+                  ? "text-red-500"
                   : "hover:text-white transition duration-300"
               }
             >
@@ -31,7 +31,7 @@ const Navbar = () => {
               to="/wishlist"
               className={({ isActive }) =>
                 isActive
-                  ? "text-white"
+                  ? "text-red-500"
                   : "hover:text-white transition duration-300"
               }
             >
@@ -173,7 +173,7 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "block text-white"
+                ? "block text-red-500"
                 : "block text-gray-300 hover:text-white transition"
             }
           >
@@ -184,7 +184,7 @@ const Navbar = () => {
             to="/wishlist"
             className={({ isActive }) =>
               isActive
-                ? "block text-white"
+                ? "block text-red-500"
                 : "block text-gray-300 hover:text-white transition"
             }
           >

@@ -6,10 +6,10 @@ import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div>
+        <div className='flex flex-col  '>
               <Banner></Banner>
            
-            <Movies movies={movies} ></Movies>
+            <Movies movies={movies}  ></Movies>
         </div>
     );
 };

@@ -1,10 +1,12 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const MovieCard = ({ movie }) => {
-  const { title, genre, poster, rating } = movie;
+  const { title, genre, poster, rating,id } = movie;
 
   return (
+    <Link to={`/movie/${id}`}>
     <div className="flex w-52 pb-4 flex-col bg-mist-900 text-white gap-2 rounded-lg">
       <img className="w-full h-60 object-cover rounded-t-lg" src={poster} alt={title} />
 
@@ -19,7 +21,8 @@ const MovieCard = ({ movie }) => {
         </p>
       </div>
     </div>
+    </Link>
   );
 };
 
-export default MovieCard;
+export default MovieCard; 
