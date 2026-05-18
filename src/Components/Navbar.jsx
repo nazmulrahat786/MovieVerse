@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 
 
@@ -12,10 +12,12 @@ const Navbar = () => {
       {/* Desktop Navbar */}
       <nav className="hidden md:flex w-full bg-[#05070d] border-b border-white/5 px-6 py-4 items-center justify-between shadow-lg">
         <div className="flex items-center gap-10">
-          <h1 className="text-2xl font-bold tracking-wide">
+    <Link to="/">
+    
+      <h1 className="text-2xl font-bold tracking-wide">
             Movie<span className="text-red-500">Verse</span>
           </h1>
-
+    </Link>
           <div className="flex items-center gap-8 text-sm font-medium text-gray-300">
             <NavLink
               to="/"
@@ -124,9 +126,12 @@ const Navbar = () => {
             </svg>
           </button>
 
-          <h1 className="text-2xl font-bold tracking-wide">
+          <Link to="/">
+    
+      <h1 className="text-2xl font-bold tracking-wide">
             Movie<span className="text-red-500">Verse</span>
           </h1>
+    </Link>
         </div>
 
         <div className="flex items-center gap-4">

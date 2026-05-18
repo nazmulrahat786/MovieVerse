@@ -3,6 +3,7 @@ import MainPage from "../Page/MainPage";
 import Home from "../Components/Home";
 import NotFound from "../Page/NotFound";
 import MovieDetails from "../Components/MovieDetails";
+import Wishlist from "../Components/Wishlist";
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
         
         
         ,
+        {
+          path: "wishlist",
+          Component: Wishlist,
+            loader: () => fetch(`/public/movieData.json`)
+        },
         {
           path: "*",
           Component: NotFound

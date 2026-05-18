@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useNavigate, useParams } from 'react-router';
 import { FaStar, FaPlay } from 'react-icons/fa';
 import { IoIosArrowBack } from "react-icons/io";
-import { saveMovies } from '../Uitilits/Localstorage';
+import { getAllMovies, saveMovies } from '../Uitilits/Localstorage';
 
 
 const MovieDetails = () => {
+    const [isAdded ,setIsAdded] = useState(false)
     const navigate = useNavigate()
   const data = useLoaderData();
   const { id } = useParams();
@@ -18,6 +19,19 @@ const handleAddToWishlist = (id) => {
   // Call the saveMovies function from Localstorage.js to add the movie to the wishlist
   saveMovies(id);
 }
+
+useEffect(()=>{
+    const allAddedMovies = getAllMovies()
+ if(allAddedMovies.includes(movieId)){
+    setIsAdded(true)
+ }
+
+
+
+
+
+},[])
+
 
 
 
@@ -95,7 +109,7 @@ const handleAddToWishlist = (id) => {
               className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition"
               onClick={() => handleAddToWishlist(movieId)}
             >
-              + Add to Wishlist
+             {isAdded ? "Added to Wishlist" : "Add to Wishlist"}
             </button>
 
             <button className="border border-gray-500 hover:border-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition">

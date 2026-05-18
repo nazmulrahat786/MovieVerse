@@ -27,6 +27,24 @@ const saveMovies = (id) => {
     timer: 1500,
     showConfirmButton: false,
   });
+
 };
 
-export { getAllMovies, saveMovies };
+const removeMovie = (id) => {
+  const movies = getAllMovies();
+  const updatedMovies = movies.filter(movieId => movieId !== id);
+  localStorage.setItem("movies", JSON.stringify(updatedMovies));
+   
+    Swal.fire({
+    icon: "success",
+    title: "Added!",
+    text: "Movie added successfully.",
+    timer: 1500,
+    showConfirmButton: false,
+
+  });
+ 
+
+}
+
+export { getAllMovies, saveMovies, removeMovie };

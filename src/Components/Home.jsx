@@ -6,7 +6,7 @@ import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div className='flex flex-col  '>
+        <div className='flex flex-col items-center  '>
               <Banner></Banner>
            
             <Movies movies={movies}  ></Movies>
