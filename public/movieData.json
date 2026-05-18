@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "rating": 8.8,
+    "year": 2010,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjhkNjM0ZTMtNGM5MC00ZTQ3LTk3YmYtZTkzYzdiNWE0ZTA2XkEyXkFqcGc@._V1_.jpg",
+    "duration": "2h 28m",
+    "description": "A thief enters people's dreams to steal secrets."
+  },
+  {
+    "id": 2,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "rating": 8.7,
+    "year": 2014,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",
+    "duration": "2h 49m",
+    "description": "A team travels through a wormhole in space."
+  },
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "rating": 9.0,
+    "year": 2008,
+    "poster": "https://rukminim2.flixcart.com/image/480/480/k8xduvk0/poster/j/m/z/medium-the-dark-knight-poster-decorative-wall-poster-wall-d-cor-original-imafqu8euacqngyh.jpeg?q=90",
+    "duration": "2h 32m",
+    "description": "Batman faces the Joker in Gotham City."
+  },
+  {
+    "id": 4,
+    "title": "Avengers: Endgame",
+    "genre": "Action",
+    "rating": 8.4,
+    "year": 2019,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg",
+    "duration": "3h 1m",
+    "description": "The Avengers assemble for one final battle."
+  },
+  {
+    "id": 5,
+    "title": "Titanic",
+    "genre": "Romance",
+    "rating": 7.9,
+    "year": 1997,
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "duration": "3h 14m",
+    "description": "A love story aboard the Titanic ship."
+  },
+  {
+    "id": 6,
+    "title": "Joker",
+    "genre": "Drama",
+    "rating": 8.4,
+    "year": 2019,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_.jpg",
+    "duration": "2h 2m",
+    "description": "The origin story of Arthur Fleck."
+  },
+  {
+    "id": 7,
+    "title": "Frozen",
+    "genre": "Animation",
+    "rating": 7.4,
+    "year": 2013,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_.jpg",
+    "duration": "1h 42m",
+    "description": "Two sisters embark on a magical journey."
+  },
+  {
+    "id": 8,
+    "title": "Toy Story",
+    "genre": "Animation",
+    "rating": 8.3,
+    "year": 1995,
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_.jpg",
+    "duration": "1h 21m",
+    "description": "Toys come to life when humans aren't around."
+  },
+  {
+    "id": 9,
+    "title": "Doctor Strange",
+    "genre": "Fantasy",
+    "rating": 7.5,
+    "year": 2016,
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2YxZGRjMzYtZjE1ZC00MDI0LThjZmQtZTZmMzVmMmQ2NzBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "duration": "1h 55m",
+    "description": "A surgeon learns mystical arts."
+  },
+  {
+    "id": 10,
+    "title": "The Conjuring",
+    "genre": "Horror",
+    "rating": 7.5,
+    "year": 2013,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg",
+    "duration": "1h 52m",
+    "description": "Paranormal investigators help a haunted family."
+  }
+]
